@@ -14,6 +14,10 @@ app.get('/script', (req, res) => {
   res.sendFile("index.html")
 })
 
+app.get('/script.mp4' (req, res) => {
+  res.sendFile('script.mp4')
+})
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
