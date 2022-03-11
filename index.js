@@ -15,7 +15,7 @@ app.get('/script', (req, res) => {
 })
 
 app.get('/script.mp4' (req, res) => {
-  res.sendFile('script.mp4')
+  res.sendFile('./script.mp4')
 })
 
 app.listen(port, () => {
